@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var i=jQuery(window).width();function e(){jQuery("#sidebar-stiki").stick_in_parent({parent:"#frame-konten",offset_top:0})}i<768?jQuery("#sidebar-stiki").trigger("sticky_kit:detach"):e(),jQuery(window).resize(function(){(i=jQuery(window).width())<768?jQuery("#sidebar-stiki").trigger("sticky_kit:detach"):e()})});
